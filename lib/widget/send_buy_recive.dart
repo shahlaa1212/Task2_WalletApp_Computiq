@@ -75,7 +75,7 @@ Widget sendBuyRecive(){
                 )
               ]
           ),
-          SizedBox(height: 16,),
+          SizedBox(height: 16),
           Text('Receive',style: TextStyle(color: ColorApp.whiteColor,fontSize:14,fontFamily:  "Urbanist", fontWeight:
           FontWeight.w600)),
         ],

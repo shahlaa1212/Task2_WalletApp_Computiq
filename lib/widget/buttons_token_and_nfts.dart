@@ -25,8 +25,17 @@ Widget buttonsTokenAndNFTS(){
             ),
             child: Align(
               alignment: Alignment.center,
+<<<<<<< HEAD
               child: Text('Token',style: TextStyle(color: ColorApp.textTokenColor,fontSize:16,fontFamily:  "Urbanist", fontWeight:
               FontWeight.w600)),),
+=======
+              child: Text(
+                  'Token',
+                  style: TextStyle(color: ColorApp.textTokenColor,
+                      fontSize:16,
+                      fontFamily:"Urbanist",
+                      fontWeight: FontWeight.w600),),),
+>>>>>>> 44d5336 (Initial commit)
           ),
           SizedBox(width: 40,),
 
