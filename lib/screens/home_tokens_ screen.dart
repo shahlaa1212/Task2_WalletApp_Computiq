@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:wallet_app/widget/appbar.dart';
+import 'package:wallet_app/widget/appbar_home_tokens_screen.dart';
 import 'package:wallet_app/widget/center_text.dart';
 import '../color/color.dart';
 import '../widget/buttons_token_and_nfts.dart';
@@ -11,13 +11,12 @@ class HomeTokenScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
       backgroundColor: ColorApp.mainColor,
       body: SafeArea(
         child: Column(
           children: [
-           appBar(),
+            appBarHomeTokensScreen(),
             SizedBox(
               height: 35,
             ),

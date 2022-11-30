@@ -1,10 +1,33 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
+import '../color/color.dart';
+import '../widget/Card_nfts_list.dart';
+import '../widget/appbar_category_screen.dart';
+import '../widget/scroll_category.dart';
 
 class CategoryScreen extends StatelessWidget {
   const CategoryScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      backgroundColor: ColorApp.mainColor,
+       body: SingleChildScrollView(
+        child: Padding(
+         padding: const EdgeInsets.all(20.0),
+            child: Column(
+               children: [
+                 appBarCategoryScreen(),
+                 SizedBox(height: 15,),
+                 ScrollCategory(),
+                 SizedBox(height: 35,),
+                 CardNFTsList()
+                   ],
+                 ),
+               ),
+            ),
+       );
   }
 }
+
+
