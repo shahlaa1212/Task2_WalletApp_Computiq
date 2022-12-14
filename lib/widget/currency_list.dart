@@ -5,21 +5,49 @@ import '../utilities/color.dart';
 Widget currencyList(){
   return Column(
     children: [
-      CurrencyDetails(iconType: 'assets/images/bitcoin.svg', type: 'BTC', typeName: 'Bitcoin', image: 'assets/images/line_change.svg', price: '\$36,590.00', changePrice: '\+6.21\%', color: ColorApp.linearGradColor1,),
+      CurrencyDetails(
+        iconType: 'assets/images/bitcoin.svg',
+        type: 'BTC',
+        typeName: 'Bitcoin',
+        image: 'assets/images/line_change.svg',
+        price: '\$36,590.00',
+        changePrice: '\+6.21\%',
+        color: ColorApp.linearGradColor1,
+      ),
       SizedBox(height: 10,),
       Padding(
         padding: const EdgeInsets.symmetric(horizontal: 20.0),
-        child: Divider(thickness: 1,
-          color: ColorApp.tokenAndNFTColor,),
+        child: Divider(
+          thickness: 1,
+          color: ColorApp.tokenAndNFTColor,
+        ),
       ),
-      CurrencyDetails(iconType: 'assets/images/ethereum.svg', type: 'ETH', typeName: 'Ethereum', image: 'assets/images/redline_change.svg', price: '\$2,590.00', changePrice: '\+5.21\%', color: ColorApp.redGradColor2,),
+      CurrencyDetails(
+        iconType: 'assets/images/ethereum.svg',
+        type: 'ETH',
+        typeName: 'Ethereum',
+        image: 'assets/images/redline_change.svg',
+        price: '\$2,590.00',
+        changePrice: '\+5.21\%',
+        color: ColorApp.redGradColor2,
+      ),
       SizedBox(height: 10,),
       Padding(
         padding: const EdgeInsets.symmetric(horizontal: 20.0),
-        child: Divider(thickness: 1,
-          color: ColorApp.tokenAndNFTColor,),
+        child: Divider(
+          thickness: 1,
+          color: ColorApp.tokenAndNFTColor,
+        ),
       ),
-      CurrencyDetails(iconType: 'assets/images/solona.svg', type: 'SOL', typeName: 'Solona', image: 'assets/images/redline_change.svg', price: '\$390.00', changePrice: '\+2.21\%', color: ColorApp.redGradColor2,),
+      CurrencyDetails(
+        iconType: 'assets/images/solona.svg',
+        type: 'SOL',
+        typeName: 'Solona',
+        image: 'assets/images/redline_change.svg',
+        price: '\$390.00',
+        changePrice: '\+2.21\%',
+        color: ColorApp.redGradColor2,
+      ),
     ],
   );
 }
@@ -50,17 +78,49 @@ class CurrencyDetails extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
-              Text(type,style:  TextStyle(color: ColorApp.whiteColor,fontSize:16,fontFamily:  "Urbanist", fontWeight:
-              FontWeight.w700)),
-              Text(typeName,style: TextStyle(color: ColorApp.whiteColor,fontSize:12,fontFamily:  "Urbanist", fontWeight:
-              FontWeight.w500)),],),
+              Text(
+                  type,
+                  style: TextStyle(
+                      color: ColorApp.whiteColor,
+                      fontSize:16,
+                      fontFamily:"Urbanist",
+                      fontWeight: FontWeight.w700,
+                  ),
+              ),
+              Text(
+                  typeName,
+                  style: TextStyle(
+                      color: ColorApp.whiteColor,
+                      fontSize:12,
+                      fontFamily:"Urbanist",
+                      fontWeight:FontWeight.w500,
+                  ),
+              ),
+            ],
+          ),
           SvgPicture.asset(image),
           Column(
             children: [
-              Text(price,style: TextStyle(color: ColorApp.whiteColor,fontSize:14,fontFamily:  "Urbanist", fontWeight:
-              FontWeight.w700)),
-              Text(changePrice,style:  TextStyle(color: color,fontSize:12,fontFamily:  "Urbanist", fontWeight:
-              FontWeight.w600)),],),
+              Text(
+                  price,
+                  style: TextStyle(
+                      color: ColorApp.whiteColor,
+                      fontSize:14,
+                      fontFamily:"Urbanist",
+                      fontWeight:FontWeight.w700,
+                  ),
+              ),
+              Text(
+                  changePrice,
+                  style:  TextStyle(
+                      color: color,
+                      fontSize:12,
+                      fontFamily:  "Urbanist",
+                      fontWeight: FontWeight.w600,
+                  ),
+              ),
+            ],
+          ),
         ],
       ),
     );

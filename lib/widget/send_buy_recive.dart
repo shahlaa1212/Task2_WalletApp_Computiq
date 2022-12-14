@@ -16,7 +16,9 @@ Widget sendBuyRecive(){
                   height: 76,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(50),
-                      color:ColorApp.buttonStatusColor ),),
+                      color:ColorApp.buttonStatusColor,
+                  ),
+                ),
                 SvgPicture.asset('assets/images/send_money.svg',
                   fit: BoxFit.cover,
                   height: 34,
@@ -52,8 +54,9 @@ Widget sendBuyRecive(){
                     colors: [
                       ColorApp.linearbuttonStatusColor2,
                       ColorApp.linearbuttonStatusColor1,
-                    ])),
-
+                    ]
+                )
+            ),
             child: Icon(
               Icons.add,
               color: ColorApp.whiteColor,

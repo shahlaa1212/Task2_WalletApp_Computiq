@@ -7,7 +7,15 @@ Widget appBarCategoryScreen() {
     automaticallyImplyLeading: false,
     elevation: 0,
     backgroundColor: ColorApp.mainColor,
-    title: Center(child: Text('Market', style:TextStyle(color: Colors.white,fontSize:24),)),
+    title: Center(
+        child: Text(
+          'Market',
+          style:TextStyle(
+              color: Colors.white,
+              fontSize:24
+           ),
+        ),
+    ),
     actions: [
       Padding(
         padding: const EdgeInsets.only(right: 20),
@@ -24,8 +32,13 @@ Widget appBarCategoryScreen() {
                       radius: 8.0,
                       backgroundColor: ColorApp.redGradColor2,
                     ),
-                    Text("5",style:TextStyle(color: Colors.white,fontSize: 12.0),
-                    )
+                    Text(
+                      "5",
+                      style:TextStyle(
+                          color: Colors.white,
+                          fontSize: 12.0,
+                      ),
+                    ),
                   ]
               ),
             ],

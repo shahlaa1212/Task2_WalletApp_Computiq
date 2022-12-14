@@ -69,7 +69,13 @@ class CardNFTs extends StatelessWidget {
                     size: 10,
                   ),
                   SizedBox(width: 2,),
-                  Text('2',style: TextStyle(color: Colors.black,fontSize: 8.5),)
+                  Text(
+                    '2',
+                    style: TextStyle(
+                        color: Colors.black,
+                        fontSize: 8.5
+                    ),
+                  ),
                 ],
               ),
             ),
@@ -79,7 +85,10 @@ class CardNFTs extends StatelessWidget {
           width: 156,
           height: 65,
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.only(bottomRight:Radius.circular(20.0), bottomLeft: Radius.circular(20.0)  ),
+            borderRadius: BorderRadius.only(
+                bottomRight:Radius.circular(20.0),
+                bottomLeft: Radius.circular(20.0),
+            ),
             color: ColorApp.buttonStatusColor,
           ),
           child: Padding(
@@ -87,17 +96,33 @@ class CardNFTs extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text('Super Influencers',style: TextStyle(color: Colors.white,fontSize: 12),),
+                Text(
+                  'Super Influencers',
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 12
+                  ),
+                ),
                 SizedBox(height: 3,),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Text("\#1267",style: TextStyle(color: Colors.white,fontSize: 14),),
+                    Text(
+                      "\#1267",
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 14),
+                    ),
                     Row(
                       children: [
                         SvgPicture.asset("assets/images/coins.svg"),
                         SizedBox(width: 3,),
-                        Text("6.64",style:TextStyle(color: Colors.white,fontSize: 14),),
+                        Text(
+                          "6.64",
+                          style:TextStyle(
+                              color: Colors.white,
+                              fontSize: 14),
+                        ),
                       ],
                     ),
                   ],
@@ -105,7 +130,7 @@ class CardNFTs extends StatelessWidget {
               ],
             ),
           ),
-        )
+        ),
       ],
     );
   }
