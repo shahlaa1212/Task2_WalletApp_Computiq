@@ -24,8 +24,15 @@ Widget sendBuyRecive(){
                 )
               ])
           ,SizedBox(height: 16,),
-          Text('Send',style: TextStyle(color: ColorApp.whiteColor,fontSize:14,fontFamily:  "Urbanist", fontWeight:
-          FontWeight.w600)),
+          Text(
+              'Send',
+              style: TextStyle(
+                  color: ColorApp.whiteColor,
+                  fontSize:14,
+                  fontFamily:"Urbanist",
+                  fontWeight: FontWeight.w600,
+              ),
+          ),
         ],
       ),
       SizedBox(
@@ -47,11 +54,22 @@ Widget sendBuyRecive(){
                       ColorApp.linearbuttonStatusColor1,
                     ])),
 
-            child: Icon(Icons.add,color: ColorApp.whiteColor,size: 34,),
-
-          ),SizedBox(height: 16,),
-          Text('Buy',style: TextStyle(color: ColorApp.whiteColor,fontSize:14,fontFamily:  "Urbanist", fontWeight:
-          FontWeight.w600)),
+            child: Icon(
+              Icons.add,
+              color: ColorApp.whiteColor,
+              size: 34,
+            ),
+          ),
+          SizedBox(height: 16),
+          Text(
+              'Buy',
+              style: TextStyle(
+                  color: ColorApp.whiteColor,
+                  fontSize:14,
+                  fontFamily:"Urbanist",
+                  fontWeight: FontWeight.w600,
+              ),
+          ),
         ],
       ),
       SizedBox(
@@ -67,17 +85,26 @@ Widget sendBuyRecive(){
                   height: 76,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(50),
-                      color:ColorApp.buttonStatusColor ),),
+                      color:ColorApp.buttonStatusColor,
+                  ),
+                ),
                 SvgPicture.asset('assets/images/receive_money.svg',
                   fit: BoxFit.cover,
                   height: 34,
                   width: 34,
-                )
-              ]
+                ),
+              ],
           ),
           SizedBox(height: 16),
-          Text('Receive',style: TextStyle(color: ColorApp.whiteColor,fontSize:14,fontFamily:  "Urbanist", fontWeight:
-          FontWeight.w600)),
+          Text(
+              'Receive',
+              style: TextStyle(
+                  color: ColorApp.whiteColor,
+                  fontSize:14,
+                  fontFamily:"Urbanist",
+                  fontWeight: FontWeight.w600,
+              ),
+          ),
         ],
       ),
     ],
