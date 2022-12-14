@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
-import '../color/color.dart';
+import '../utilities/color.dart';
 import '../widget/Card_nfts_list.dart';
 import '../widget/appbar_category_screen.dart';
 import '../widget/scroll_category.dart';

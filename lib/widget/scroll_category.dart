@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../color/color.dart';
+import '../utilities/color.dart';
 
 Widget ScrollCategory(){
   return SingleChildScrollView(

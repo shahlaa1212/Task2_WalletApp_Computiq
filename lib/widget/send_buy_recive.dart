@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import '../color/color.dart';
+import '../utilities/color.dart';
 
 Widget sendBuyRecive(){
   return Row(

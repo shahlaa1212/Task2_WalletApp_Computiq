@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:wallet_app/widget/appbar_home_tokens_screen.dart';
 import 'package:wallet_app/widget/center_text.dart';
-import '../color/color.dart';
+import '../utilities/color.dart';
 import '../widget/buttons_token_and_nfts.dart';
 import '../widget/currency_list.dart';
 import '../widget/send_buy_recive.dart';
