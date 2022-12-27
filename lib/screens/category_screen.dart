@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../utilities/color.dart';
+import '../utils/color.dart';
 import '../widget/Card_nfts_list.dart';
 import '../widget/appbar_category_screen.dart';
 import '../widget/scroll_category.dart';

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import '../utilities/color.dart';
+import '../utils/color.dart';
 
 Widget appBarHomeTokensScreen(){
   return  Padding(
@@ -13,7 +13,6 @@ Widget appBarHomeTokensScreen(){
           child: Container(
             width: 35,
             height: 35,
-
             decoration:
             BoxDecoration(
                 border: Border.all(
@@ -26,7 +25,8 @@ Widget appBarHomeTokensScreen(){
                         'assets/images/imgkarh.png'
                     ),
                     fit: BoxFit.cover,
-                )),
+                ),
+            ),
           ),
         ),
         Expanded(
@@ -51,7 +51,8 @@ Widget appBarHomeTokensScreen(){
                         backgroundColor:  ColorApp.redGradColor2,
                       ),
                       Text("5",style: TextStyle(color: ColorApp.whiteColor,fontSize:12,fontFamily:  "Urbanist", fontWeight:
-                      FontWeight.w600)), ]
+                      FontWeight.w600)),
+                    ]
                 ),
               ],
             ),

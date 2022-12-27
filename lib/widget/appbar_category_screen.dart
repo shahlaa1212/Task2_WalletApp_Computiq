@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import '../utilities/color.dart';
+import '../utils/color.dart';
 
 Widget appBarCategoryScreen() {
   return AppBar(

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../utilities/color.dart';
+import '../utils/color.dart';
 
 Widget ScrollCategory(){
   return SingleChildScrollView(
@@ -20,7 +20,8 @@ Widget ScrollCategory(){
                 BorderRadius.circular(50.0)
             ),
             child: Center(
-                child: Text('All NFTs',
+                child: Text(
+                  'All NFTs',
                   style: TextStyle(
                       color: Colors.white,
                       fontSize: 12
@@ -65,10 +66,12 @@ Widget ScrollCategory(){
         ),
         SizedBox(width: 5,),
         Container(
-            width: 59,height: 30,
+            width: 59,
+            height: 30,
             decoration: BoxDecoration(
                 color: ColorApp.subMainColor,
-                borderRadius: BorderRadius.circular(50.0)),
+                borderRadius: BorderRadius.circular(50.0)
+            ),
             child: Center(
                 child: Text(
                   'Music',

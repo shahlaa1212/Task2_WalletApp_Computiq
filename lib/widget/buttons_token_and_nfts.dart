@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../utilities/color.dart';
+import '../utils/color.dart';
 
 Widget buttonsTokenAndNFTS(){
   return  Padding(
