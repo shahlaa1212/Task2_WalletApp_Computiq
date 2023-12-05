@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:wallet_app/utils/app_string.dart';
 import '../utils/app_assets.dart';
 import '../utils/color.dart';
 
@@ -46,10 +47,11 @@ class appBarHomeTokensScreen extends StatelessWidget {
           const Expanded(
             flex: 5,
             child:  Text(
-                'Account_1',
+              AppString.account_1,
                 style: TextStyle(
                     color: ColorApp.whiteColor,
-                    fontSize:16, fontFamily: "Urbanist",
+                    fontSize:16,
+                    fontFamily: "Urbanist",
                     fontWeight:
                     FontWeight.w600
                 ),),
@@ -71,7 +73,7 @@ class appBarHomeTokensScreen extends StatelessWidget {
                           backgroundColor: ColorApp.redGradColor2,
                         ),
                         Text(
-                            "5",
+                          AppString.five,
                             style: TextStyle(
                                 color: ColorApp.whiteColor,
                                 fontSize:12,

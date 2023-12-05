@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:wallet_app/utils/app_string.dart';
 import '../utils/color.dart';
 
 class buttonsTokenAndNFTS extends StatelessWidget {
@@ -30,10 +31,11 @@ class buttonsTokenAndNFTS extends StatelessWidget {
               child: Align(
                 alignment: Alignment.center,
                 child: Text(
-                    'Token',
+                  AppString.token,
                     style: TextStyle(
                         color: ColorApp.textTokenColor,
-                        fontSize:16,fontFamily:  "Urbanist",
+                        fontSize:16,
+                        fontFamily:  "Urbanist",
                         fontWeight: FontWeight.w600
                     )
                 ),
@@ -42,7 +44,7 @@ class buttonsTokenAndNFTS extends StatelessWidget {
             SizedBox(width: 40,),
 
             Text(
-                'NFTs',
+                AppString.nFTs,
                 style:  TextStyle(
                     color: ColorApp.textNFTColor,
                     fontSize:16,

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:wallet_app/utils/app_assets.dart';
+import 'package:wallet_app/utils/app_string.dart';
 import '../utils/color.dart';
 
 class CardNFTs extends StatelessWidget {
@@ -36,7 +38,7 @@ class CardNFTs extends StatelessWidget {
                   ),
                   SizedBox(width: 2,),
                   Text(
-                    '2',
+                    AppString.two,
                     style: TextStyle(
                         color: Colors.black,
                         fontSize: 8.5
@@ -63,7 +65,7 @@ class CardNFTs extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'Super Influencers',
+                  AppString.superInfluencers,
                   style: TextStyle(
                       color: Colors.white,
                       fontSize: 12
@@ -74,7 +76,7 @@ class CardNFTs extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "\#1267",
+                      AppString.sentence,
                       style: TextStyle(
                           color: Colors.white,
                           fontSize: 14
@@ -82,10 +84,12 @@ class CardNFTs extends StatelessWidget {
                     ),
                     Row(
                       children: [
-                        SvgPicture.asset("assets/images/coins.svg"),
+                        SvgPicture.asset(
+                          Assets.imagesCoins,
+                        ),
                         SizedBox(width: 3,),
                         Text(
-                          "6.64",
+                          AppString.numbers,
                           style:TextStyle(
                               color: Colors.white,
                               fontSize: 14

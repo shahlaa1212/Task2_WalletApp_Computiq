@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
+import 'package:wallet_app/utils/app_string.dart';
 import '../utils/app_assets.dart';
 import '../utils/color.dart';
 import 'currency_details.dart';
@@ -13,11 +13,11 @@ class currencyList extends StatelessWidget {
       children: [
         CurrencyDetails(
           iconType: Assets.imagesBitcoin,
-          type: 'BTC',
-          typeName: 'Bitcoin',
+          type: AppString.bTC1,
+          typeName: AppString.bitcoin,
           image: Assets.imagesLineChange,
-          price: '\$36,590.00',
-          changePrice: '\+6.21\%',
+          price: AppString.price,
+          changePrice: AppString.changePrice,
           color: ColorApp.linearGradColor1,
         ),
         SizedBox(height: 10,),
@@ -30,11 +30,11 @@ class currencyList extends StatelessWidget {
         ),
         CurrencyDetails(
           iconType: Assets.imagesEthereum,
-          type: 'ETH',
-          typeName: 'Ethereum',
+          type: AppString.eTH,
+          typeName: AppString.ethereum,
           image: Assets.imagesRedlineChange,
-          price: '\$2,590.00',
-          changePrice: '\+5.21\%',
+          price: AppString.price1,
+          changePrice: AppString.changePrice1,
           color: ColorApp.redGradColor2,
         ),
         SizedBox(height: 10,),
@@ -47,11 +47,11 @@ class currencyList extends StatelessWidget {
         ),
         CurrencyDetails(
           iconType: Assets.imagesSolona,
-          type: 'SOL',
-          typeName: 'Solona',
+          type: AppString.sOL,
+          typeName: AppString.solona,
           image: Assets.imagesRedlineChange,
-          price: '\$390.00',
-          changePrice: '\+2.21\%',
+          price: AppString.price2,
+          changePrice: AppString.changePrice2,
           color: ColorApp.redGradColor2,
         ),
       ],

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:wallet_app/utils/app_string.dart';
 import '../utils/color.dart';
 
 class ScrollCategory extends StatelessWidget {
@@ -20,12 +21,11 @@ class ScrollCategory extends StatelessWidget {
                       color: ColorApp.linearGradColor1
                   ),
                   color: ColorApp.subMainColor,
-                  borderRadius:
-                  BorderRadius.circular(50.0)
+                  borderRadius: BorderRadius.circular(50.0)
               ),
               child: Center(
                 child: Text(
-                  'All NFTs',
+                  AppString.allNFTs,
                   style: TextStyle(
                       color: Colors.white,
                       fontSize: 12
@@ -43,7 +43,7 @@ class ScrollCategory extends StatelessWidget {
               ),
               child: Center(
                 child: Text(
-                  'Art',
+                  AppString.art,
                   style: TextStyle(
                       color: Colors.white,
                       fontSize: 12
@@ -61,10 +61,11 @@ class ScrollCategory extends StatelessWidget {
               ),
               child: Center(
                 child: Text(
-                  'Collectibles',
+                  AppString.collectibles,
                   style: TextStyle(
                       color: Colors.white,
-                      fontSize: 12),
+                      fontSize: 12
+                  ),
                 ),
               ),
             ),
@@ -78,10 +79,11 @@ class ScrollCategory extends StatelessWidget {
               ),
               child: Center(
                 child: Text(
-                  'Music',
+                  AppString.music,
                   style: TextStyle(
                       color: Colors.white,
-                      fontSize: 12),
+                      fontSize: 12
+                  ),
                 ),
               ),
             ),
@@ -95,10 +97,11 @@ class ScrollCategory extends StatelessWidget {
               ),
               child: Center(
                 child: Text(
-                  'Photography',
+                  AppString.photography,
                   style: TextStyle(
                       color: Colors.white,
-                      fontSize: 12),
+                      fontSize: 12
+                  ),
                 ),
               ),
             ),

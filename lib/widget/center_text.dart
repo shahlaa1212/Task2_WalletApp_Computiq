@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:wallet_app/utils/app_string.dart';
 import '../utils/color.dart';
 
 class centerText extends StatelessWidget {
@@ -9,7 +10,7 @@ class centerText extends StatelessWidget {
     return Column(
       children: [
         Text(
-          'Current Wallet Balance',
+          AppString.currentWalletBalance,
           style: TextStyle(
               color: ColorApp.whiteColor,
               fontSize:14,
@@ -22,7 +23,7 @@ class centerText extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              '\$ 5,323.00',
+              AppString.number2,
               style:  TextStyle(
                 color: ColorApp.whiteColor,
                 fontSize:40,
@@ -50,7 +51,7 @@ class centerText extends StatelessWidget {
             mainAxisSize: MainAxisSize.min,
             children: [
               Text(
-                'BTC : 0,00335',
+                AppString.bTC,
                 style:  TextStyle(
                   color: ColorApp.whiteColor,
                   fontSize:12,
@@ -65,7 +66,7 @@ class centerText extends StatelessWidget {
                 size: 16,
               ),
               Text(
-                '\+6.54\%',
+                AppString.numer3,
                 style:  TextStyle(
                   color: ColorApp.linearGradColor1,
                   fontSize:12,
