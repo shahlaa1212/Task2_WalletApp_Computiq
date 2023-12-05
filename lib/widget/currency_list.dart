@@ -2,57 +2,60 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import '../utils/color.dart';
 
-Widget currencyList(){
-  return Column(
-    children: [
-      CurrencyDetails(
-        iconType: 'assets/images/bitcoin.svg',
-        type: 'BTC',
-        typeName: 'Bitcoin',
-        image: 'assets/images/line_change.svg',
-        price: '\$36,590.00',
-        changePrice: '\+6.21\%',
-        color: ColorApp.linearGradColor1,
-      ),
-      SizedBox(height: 10,),
-      Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 20.0),
-        child: Divider(
-          thickness: 1,
-          color: ColorApp.tokenAndNFTColor,
+class currencyList extends StatelessWidget {
+  const currencyList({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        CurrencyDetails(
+          iconType: 'assets/images/bitcoin.svg',
+          type: 'BTC',
+          typeName: 'Bitcoin',
+          image: 'assets/images/line_change.svg',
+          price: '\$36,590.00',
+          changePrice: '\+6.21\%',
+          color: ColorApp.linearGradColor1,
         ),
-      ),
-      CurrencyDetails(
-        iconType: 'assets/images/ethereum.svg',
-        type: 'ETH',
-        typeName: 'Ethereum',
-        image: 'assets/images/redline_change.svg',
-        price: '\$2,590.00',
-        changePrice: '\+5.21\%',
-        color: ColorApp.redGradColor2,
-      ),
-      SizedBox(height: 10,),
-      Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 20.0),
-        child: Divider(
-          thickness: 1,
-          color: ColorApp.tokenAndNFTColor,
+        SizedBox(height: 10,),
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 20.0),
+          child: Divider(
+            thickness: 1,
+            color: ColorApp.tokenAndNFTColor,
+          ),
         ),
-      ),
-      CurrencyDetails(
-        iconType: 'assets/images/solona.svg',
-        type: 'SOL',
-        typeName: 'Solona',
-        image: 'assets/images/redline_change.svg',
-        price: '\$390.00',
-        changePrice: '\+2.21\%',
-        color: ColorApp.redGradColor2,
-      ),
-    ],
-  );
+        CurrencyDetails(
+          iconType: 'assets/images/ethereum.svg',
+          type: 'ETH',
+          typeName: 'Ethereum',
+          image: 'assets/images/redline_change.svg',
+          price: '\$2,590.00',
+          changePrice: '\+5.21\%',
+          color: ColorApp.redGradColor2,
+        ),
+        SizedBox(height: 10,),
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 20.0),
+          child: Divider(
+            thickness: 1,
+            color: ColorApp.tokenAndNFTColor,
+          ),
+        ),
+        CurrencyDetails(
+          iconType: 'assets/images/solona.svg',
+          type: 'SOL',
+          typeName: 'Solona',
+          image: 'assets/images/redline_change.svg',
+          price: '\$390.00',
+          changePrice: '\+2.21\%',
+          color: ColorApp.redGradColor2,
+        ),
+      ],
+    );
+  }
 }
-
-
 
 class CurrencyDetails extends StatelessWidget {
   final String iconType ;
