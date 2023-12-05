@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import '../utils/app_assets.dart';
 import '../utils/color.dart';
 
 class appBarCategoryScreen extends StatelessWidget {
@@ -28,7 +29,7 @@ class appBarCategoryScreen extends StatelessWidget {
             child: Stack(
               alignment: AlignmentDirectional.topEnd,
               children: [
-                SvgPicture.asset('assets/images/notification.svg'),
+                SvgPicture.asset(Assets.imagesNotification),
                 Stack(
                     alignment: AlignmentDirectional.center,
                     children: [

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:wallet_app/utils/app_assets.dart';
 import '../utils/color.dart';
 
 class sendBuyRecive extends StatelessWidget {
@@ -23,7 +24,8 @@ class sendBuyRecive extends StatelessWidget {
                       color:ColorApp.buttonStatusColor,
                     ),
                   ),
-                  SvgPicture.asset('assets/images/send_money.svg',
+                  SvgPicture.asset(
+                    Assets.imagesSendMoney,
                     fit: BoxFit.cover,
                     height: 34,
                     width: 34,
@@ -95,7 +97,8 @@ class sendBuyRecive extends StatelessWidget {
                     color:ColorApp.buttonStatusColor,
                   ),
                 ),
-                SvgPicture.asset('assets/images/receive_money.svg',
+                SvgPicture.asset(
+                  Assets.imagesReceiveMoney,
                   fit: BoxFit.cover,
                   height: 34,
                   width: 34,

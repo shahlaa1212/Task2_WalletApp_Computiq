@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import '../utils/app_assets.dart';
 import '../utils/color.dart';
+import 'currency_details.dart';
 
 class currencyList extends StatelessWidget {
   const currencyList({super.key});
@@ -10,10 +12,10 @@ class currencyList extends StatelessWidget {
     return Column(
       children: [
         CurrencyDetails(
-          iconType: 'assets/images/bitcoin.svg',
+          iconType: Assets.imagesBitcoin,
           type: 'BTC',
           typeName: 'Bitcoin',
-          image: 'assets/images/line_change.svg',
+          image: Assets.imagesLineChange,
           price: '\$36,590.00',
           changePrice: '\+6.21\%',
           color: ColorApp.linearGradColor1,
@@ -27,10 +29,10 @@ class currencyList extends StatelessWidget {
           ),
         ),
         CurrencyDetails(
-          iconType: 'assets/images/ethereum.svg',
+          iconType: Assets.imagesEthereum,
           type: 'ETH',
           typeName: 'Ethereum',
-          image: 'assets/images/redline_change.svg',
+          image: Assets.imagesRedlineChange,
           price: '\$2,590.00',
           changePrice: '\+5.21\%',
           color: ColorApp.redGradColor2,
@@ -44,10 +46,10 @@ class currencyList extends StatelessWidget {
           ),
         ),
         CurrencyDetails(
-          iconType: 'assets/images/solona.svg',
+          iconType: Assets.imagesSolona,
           type: 'SOL',
           typeName: 'Solona',
-          image: 'assets/images/redline_change.svg',
+          image: Assets.imagesRedlineChange,
           price: '\$390.00',
           changePrice: '\+2.21\%',
           color: ColorApp.redGradColor2,
@@ -57,75 +59,3 @@ class currencyList extends StatelessWidget {
   }
 }
 
-class CurrencyDetails extends StatelessWidget {
-  final String iconType ;
-  final String type;
-  final String typeName;
-  final String image;
-  final String price;
-  final String changePrice;
-  final Color color;
-  const CurrencyDetails({Key? key, required this.iconType, required this.type, required this.typeName, required this.image, required this.price, required this.changePrice, required this.color,}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        children: [
-          Container(
-              height: 45,
-              width: 45,
-              child: SvgPicture.asset(iconType,)),
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            mainAxisAlignment: MainAxisAlignment.start,
-            children: [
-              Text(
-                  type,
-                  style: TextStyle(
-                      color: ColorApp.whiteColor,
-                      fontSize:16,
-                      fontFamily:"Urbanist",
-                      fontWeight: FontWeight.w700,
-                  ),
-              ),
-              Text(
-                  typeName,
-                  style: TextStyle(
-                      color: ColorApp.whiteColor,
-                      fontSize:12,
-                      fontFamily:"Urbanist",
-                      fontWeight:FontWeight.w500,
-                  ),
-              ),
-            ],
-          ),
-          SvgPicture.asset(image),
-          Column(
-            children: [
-              Text(
-                  price,
-                  style: TextStyle(
-                      color: ColorApp.whiteColor,
-                      fontSize:14,
-                      fontFamily:"Urbanist",
-                      fontWeight:FontWeight.w700,
-                  ),
-              ),
-              Text(
-                  changePrice,
-                  style:  TextStyle(
-                      color: color,
-                      fontSize:12,
-                      fontFamily:  "Urbanist",
-                      fontWeight: FontWeight.w600,
-                  ),
-              ),
-            ],
-          ),
-        ],
-      ),
-    );
-  }
-}

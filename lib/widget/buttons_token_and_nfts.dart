@@ -29,15 +29,27 @@ class buttonsTokenAndNFTS extends StatelessWidget {
               ),
               child: Align(
                 alignment: Alignment.center,
-                child: Text('Token',style: TextStyle(color: ColorApp.textTokenColor,fontSize:16,fontFamily:  "Urbanist", fontWeight:
-                FontWeight.w600)
+                child: Text(
+                    'Token',
+                    style: TextStyle(
+                        color: ColorApp.textTokenColor,
+                        fontSize:16,fontFamily:  "Urbanist",
+                        fontWeight: FontWeight.w600
+                    )
                 ),
               ),
             ),
             SizedBox(width: 40,),
 
-            Text('NFTs',style:  TextStyle(color: ColorApp.textNFTColor,fontSize:16,fontFamily:  "Urbanist", fontWeight:
-            FontWeight.w600)),
+            Text(
+                'NFTs',
+                style:  TextStyle(
+                    color: ColorApp.textNFTColor,
+                    fontSize:16,
+                    fontFamily: "Urbanist",
+                    fontWeight:
+                    FontWeight.w600
+                )),
           ],
         ),
       ),
