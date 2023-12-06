@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:wallet_app/utils/app_string.dart';
+import 'package:wallet_app/utils/app_text_styles.dart';
 import '../utils/app_assets.dart';
-import '../utils/color.dart';
+import '../utils/app_color.dart';
 
 class appBarHomeTokensScreen extends StatelessWidget {
   const appBarHomeTokensScreen({super.key});
@@ -44,17 +45,12 @@ class appBarHomeTokensScreen extends StatelessWidget {
               ),
             ),
           ),
-          const Expanded(
+          Expanded(
             flex: 5,
             child:  Text(
               AppString.account_1,
-                style: TextStyle(
-                    color: ColorApp.whiteColor,
-                    fontSize:16,
-                    fontFamily: "Urbanist",
-                    fontWeight:
-                    FontWeight.w600
-                ),),
+              style: CustomTextStyles.Urbanist,
+            ),
           ),
           Expanded(
             flex: 8,
@@ -74,12 +70,8 @@ class appBarHomeTokensScreen extends StatelessWidget {
                         ),
                         Text(
                           AppString.five,
-                            style: TextStyle(
-                                color: ColorApp.whiteColor,
-                                fontSize:12,
-                                fontFamily:  "Urbanist",
-                                fontWeight: FontWeight.w600
-                            )),
+                          style: CustomTextStyles.UrbanistMedium,
+                        ),
                       ]
                   ),
                 ],

@@ -12,13 +12,11 @@ class CardNFTsList extends StatelessWidget {
           Row(
             children: const [
               CardNFTs(image: Assets.imagesNFTs1),
-              SizedBox(width: 23,),
+              SizedBox(width: 23),
               CardNFTs(image: Assets.imagesNFTs2),
             ],
           ),
-          SizedBox(
-            height: 14,
-          ),
+          SizedBox(height: 14),
           Row(
             children: [
               CardNFTs(image: Assets.imagesNFTs3),
@@ -26,9 +24,7 @@ class CardNFTsList extends StatelessWidget {
               CardNFTs(image: Assets.imagesNFTs4),
             ],
           ),
-          SizedBox(
-            height: 14,
-          ),
+          SizedBox(height: 14),
           Row(
             children: [
               CardNFTs(image: Assets.imagesNFTs5),

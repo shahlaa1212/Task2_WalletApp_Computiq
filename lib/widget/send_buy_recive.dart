@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:wallet_app/utils/app_assets.dart';
 import 'package:wallet_app/utils/app_string.dart';
-import '../utils/color.dart';
+import 'package:wallet_app/utils/app_text_styles.dart';
+import '../utils/app_color.dart';
 
 class sendBuyRecive extends StatelessWidget {
   const sendBuyRecive({super.key});
@@ -36,12 +37,7 @@ class sendBuyRecive extends StatelessWidget {
             SizedBox(height: 16,),
             Text(
               AppString.send,
-              style: TextStyle(
-                color: ColorApp.whiteColor,
-                fontSize: 14,
-                fontFamily: "Urbanist",
-                fontWeight: FontWeight.w600,
-              ),
+              style: CustomTextStyles.UrbanistMedium1,
             ),
           ],
         ),
@@ -73,12 +69,7 @@ class sendBuyRecive extends StatelessWidget {
             SizedBox(height: 16),
             Text(
               AppString.buy,
-              style: TextStyle(
-                color: ColorApp.whiteColor,
-                fontSize:14,
-                fontFamily: "Urbanist",
-                fontWeight: FontWeight.w600,
-              ),
+              style: CustomTextStyles.UrbanistMedium1,
             ),
           ],
         ),
@@ -109,12 +100,7 @@ class sendBuyRecive extends StatelessWidget {
             SizedBox(height: 16),
             Text(
               AppString.receive,
-              style: TextStyle(
-                color: ColorApp.whiteColor,
-                fontSize: 14,
-                fontFamily: "Urbanist",
-                fontWeight: FontWeight.w600,
-              ),
+              style: CustomTextStyles.UrbanistMedium1,
             ),
           ],
         ),

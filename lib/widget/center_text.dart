@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:wallet_app/utils/app_string.dart';
-import '../utils/color.dart';
+import 'package:wallet_app/utils/app_text_styles.dart';
+import '../utils/app_color.dart';
 
 class centerText extends StatelessWidget {
   const centerText({super.key});
@@ -11,12 +12,7 @@ class centerText extends StatelessWidget {
       children: [
         Text(
           AppString.currentWalletBalance,
-          style: TextStyle(
-              color: ColorApp.whiteColor,
-              fontSize:14,
-              fontFamily:  "Urbanist",
-              fontWeight: FontWeight.w600
-          ),
+          style: CustomTextStyles.UrbanistMedium1,
         ),
         SizedBox(height: 10,),
         Row(
@@ -24,12 +20,7 @@ class centerText extends StatelessWidget {
           children: [
             Text(
               AppString.number2,
-              style:  TextStyle(
-                color: ColorApp.whiteColor,
-                fontSize:40,
-                fontFamily:  "Urbanist",
-                fontWeight: FontWeight.w600,
-              ),
+              style: CustomTextStyles.UrbanistLarge,
             ),
             SizedBox(width: 5,),
             Icon(
@@ -52,27 +43,17 @@ class centerText extends StatelessWidget {
             children: [
               Text(
                 AppString.bTC,
-                style:  TextStyle(
-                  color: ColorApp.whiteColor,
-                  fontSize:12,
-                  fontFamily:  "Urbanist",
-                  fontWeight: FontWeight.w500,
-                ),
+                style: CustomTextStyles.UrbanistMedium,
               ),
-              SizedBox(width: 10,),
+              SizedBox(width: 10),
               Icon(
                 Icons.arrow_drop_up,
                 color: ColorApp.linearGradColor1,
                 size: 16,
               ),
               Text(
-                AppString.numer3,
-                style:  TextStyle(
-                  color: ColorApp.linearGradColor1,
-                  fontSize:12,
-                  fontFamily:  "Urbanist",
-                  fontWeight: FontWeight.w500,
-                ),
+                AppString.numer654,
+                style: CustomTextStyles.UrbanistMedium,
               ),
             ],
           ),

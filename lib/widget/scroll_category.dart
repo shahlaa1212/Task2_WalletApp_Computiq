@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:wallet_app/utils/app_string.dart';
-import '../utils/color.dart';
+import 'package:wallet_app/utils/app_text_styles.dart';
+import '../utils/app_color.dart';
 
 class ScrollCategory extends StatelessWidget {
   const ScrollCategory({super.key});
@@ -26,10 +27,7 @@ class ScrollCategory extends StatelessWidget {
               child: Center(
                 child: Text(
                   AppString.allNFTs,
-                  style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 12
-                  ),
+                  style: CustomTextStyles.UrbanistCategory,
                 ),
               ),
             ),
@@ -44,10 +42,7 @@ class ScrollCategory extends StatelessWidget {
               child: Center(
                 child: Text(
                   AppString.art,
-                  style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 12
-                  ),
+                  style: CustomTextStyles.UrbanistCategory,
                 ),
               ),
             ),
@@ -62,10 +57,7 @@ class ScrollCategory extends StatelessWidget {
               child: Center(
                 child: Text(
                   AppString.collectibles,
-                  style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 12
-                  ),
+                  style: CustomTextStyles.UrbanistCategory,
                 ),
               ),
             ),
@@ -80,10 +72,7 @@ class ScrollCategory extends StatelessWidget {
               child: Center(
                 child: Text(
                   AppString.music,
-                  style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 12
-                  ),
+                  style: CustomTextStyles.UrbanistCategory,
                 ),
               ),
             ),
@@ -98,10 +87,7 @@ class ScrollCategory extends StatelessWidget {
               child: Center(
                 child: Text(
                   AppString.photography,
-                  style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 12
-                  ),
+                  style: CustomTextStyles.UrbanistCategory,
                 ),
               ),
             ),

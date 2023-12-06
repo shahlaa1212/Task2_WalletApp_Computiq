@@ -7,7 +7,7 @@ abstract class AppString{
       currentWalletBalance = "Current Wallet Balance",
       number2 = "\$ 5,323.00",
       bTC = "BTC : 0,00335",
-      numer3 = "\+6.54\%",
+      numer654 = "\+6.54\%",
   //Send Buy Receive String
       send = "Send",
       buy = "Buy",

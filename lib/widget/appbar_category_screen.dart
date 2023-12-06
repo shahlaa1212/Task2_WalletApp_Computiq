@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import '../utils/app_assets.dart';
-import '../utils/color.dart';
+import '../utils/app_color.dart';
 
 class appBarCategoryScreen extends StatelessWidget {
   const appBarCategoryScreen({super.key});

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:wallet_app/utils/app_string.dart';
-import '../utils/color.dart';
+import 'package:wallet_app/utils/app_text_styles.dart';
+import '../utils/app_color.dart';
 
 class buttonsTokenAndNFTS extends StatelessWidget {
   const buttonsTokenAndNFTS({super.key});
@@ -32,26 +33,15 @@ class buttonsTokenAndNFTS extends StatelessWidget {
                 alignment: Alignment.center,
                 child: Text(
                   AppString.token,
-                    style: TextStyle(
-                        color: ColorApp.textTokenColor,
-                        fontSize:16,
-                        fontFamily:  "Urbanist",
-                        fontWeight: FontWeight.w600
-                    )
+                    style: CustomTextStyles.UrbanistToken,
                 ),
               ),
             ),
             SizedBox(width: 40,),
-
             Text(
                 AppString.nFTs,
-                style:  TextStyle(
-                    color: ColorApp.textNFTColor,
-                    fontSize:16,
-                    fontFamily: "Urbanist",
-                    fontWeight:
-                    FontWeight.w600
-                )),
+                style: CustomTextStyles.UrbanistNFT,
+            ),
           ],
         ),
       ),

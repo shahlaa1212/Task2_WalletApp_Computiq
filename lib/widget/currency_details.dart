@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-
-import '../utils/color.dart';
+import 'package:wallet_app/utils/app_text_styles.dart';
 
 class CurrencyDetails extends StatelessWidget {
   final String iconType ;
@@ -29,21 +28,11 @@ class CurrencyDetails extends StatelessWidget {
             children: [
               Text(
                 type,
-                style: TextStyle(
-                  color: ColorApp.whiteColor,
-                  fontSize:16,
-                  fontFamily:"Urbanist",
-                  fontWeight: FontWeight.w700,
-                ),
+                style: CustomTextStyles.UrbanistCurrency,
               ),
               Text(
                 typeName,
-                style: TextStyle(
-                  color: ColorApp.whiteColor,
-                  fontSize:12,
-                  fontFamily:"Urbanist",
-                  fontWeight:FontWeight.w500,
-                ),
+                style: CustomTextStyles.UrbanistCurrencySmall,
               ),
             ],
           ),
@@ -52,18 +41,13 @@ class CurrencyDetails extends StatelessWidget {
             children: [
               Text(
                 price,
-                style: TextStyle(
-                  color: ColorApp.whiteColor,
-                  fontSize:14,
-                  fontFamily:"Urbanist",
-                  fontWeight:FontWeight.w700,
-                ),
+                style: CustomTextStyles.UrbanistCurrencyMedium,
               ),
               Text(
                 changePrice,
-                style:  TextStyle(
+                style: TextStyle(
                   color: color,
-                  fontSize:12,
+                  fontSize: 12,
                   fontFamily:  "Urbanist",
                   fontWeight: FontWeight.w600,
                 ),

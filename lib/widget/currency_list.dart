@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:wallet_app/utils/app_string.dart';
 import '../utils/app_assets.dart';
-import '../utils/color.dart';
+import '../utils/app_color.dart';
 import 'currency_details.dart';
 
 class currencyList extends StatelessWidget {

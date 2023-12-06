@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:wallet_app/utils/app_assets.dart';
 import 'package:wallet_app/utils/app_string.dart';
-import '../utils/color.dart';
+import 'package:wallet_app/utils/app_text_styles.dart';
+import '../utils/app_color.dart';
 
 class CardNFTs extends StatelessWidget {
   final String image ;
@@ -39,10 +40,7 @@ class CardNFTs extends StatelessWidget {
                   SizedBox(width: 2,),
                   Text(
                     AppString.two,
-                    style: TextStyle(
-                        color: Colors.black,
-                        fontSize: 8.5
-                    ),
+                    style: CustomTextStyles.UrbanistCart,
                   ),
                 ],
               ),
@@ -66,10 +64,7 @@ class CardNFTs extends StatelessWidget {
               children: [
                 Text(
                   AppString.superInfluencers,
-                  style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 12
-                  ),
+                  style: CustomTextStyles.UrbanistInfoSmall,
                 ),
                 SizedBox(height: 3,),
                 Row(
@@ -77,10 +72,7 @@ class CardNFTs extends StatelessWidget {
                   children: [
                     Text(
                       AppString.sentence,
-                      style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 14
-                      ),
+                      style: CustomTextStyles.UrbanistInfoMedium,
                     ),
                     Row(
                       children: [
@@ -90,10 +82,7 @@ class CardNFTs extends StatelessWidget {
                         SizedBox(width: 3,),
                         Text(
                           AppString.numbers,
-                          style:TextStyle(
-                              color: Colors.white,
-                              fontSize: 14
-                          ),
+                          style: CustomTextStyles.UrbanistInfoMedium,
                         ),
                       ],
                     ),
