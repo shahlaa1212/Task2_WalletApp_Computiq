@@ -2,16 +2,10 @@
 
 <p style="text-align: center;">
   <img width="242" alt="Screenshot 12-01-2022 05 00 08" src="https://github.com/user-attachments/assets/8029a981-76a7-47f7-8327-67949ac5dbeb" />
-</p>
-<p style="text-align: center;">
   <img width="242" alt="Screenshot 11-27-2022" src="https://github.com/user-attachments/assets/bdb8a799-fba6-4977-bfa7-3892f8e82bb4" />
 </p>
 
 
-<p style="text-align: center;">
-  <img width="242" alt="Screenshot 12-01-2022 05 00 08" src="https://github.com/user-attachments/assets/8029a981-76a7-47f7-8327-67949ac5dbeb" style="margin-right: 20px;" />
-  <img width="242" alt="Screenshot 11-27-2022" src="https://github.com/user-attachments/assets/bdb8a799-fba6-4977-bfa6-3892f8e82bb4" />
-</p>
 
 A new Flutter project.
 
