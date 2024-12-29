@@ -1,8 +1,9 @@
 # wallet_app
 
 <p style="text-align: center;">
-  <img width="242" alt="Screenshot 12-01-2022 05 00 08" src="https://github.com/user-attachments/assets/8029a981-76a7-47f7-8327-67949ac5dbeb" style="margin-right: 20px;"/>
-  <img width="242" alt="Screenshot 11-27-2022" src="https://github.com/user-attachments/assets/bdb8a799-fba6-4977-bfa7-3892f8e82bb4" />
+<img width="242" height="410" alt="Screenshot 12-01-2022" src="https://github.com/user-attachments/assets/dce8402c-a956-47d4-83c7-e5b11b66e612" />
+<img width="242" height="410" alt="Screenshot 11-27-2022" src="https://github.com/user-attachments/assets/972933e5-fe94-4902-be05-fa3ae5425898" />
+
 </p>
 
 
