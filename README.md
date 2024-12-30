@@ -18,9 +18,9 @@ This Wallet App is built using the following technologies:
 
 - **Flutter**: A UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.
 - **Dart**: The programming language used to develop.
-- **Flutter Widgets**: The app is built using various Flutter widgets, which are the fundamental building blocks of the user interface. Some key widgets used in the app:
-  - **StatelessWidget**: For parts of the UI that do not change once created, such as the app bar, buttons, and text that remain static.
-  - **StatefulWidget**: For parts of the UI that require dynamic changes, such as buttons and forms that update based on user interactions.
+- **Flutter Widgets**: The app is built using various Flutter widgets, which are the fundamental building blocks . Some key widgets used in the app:
+  - **StatelessWidget**: For parts of the UI that do not change once created.
+  - **StatefulWidget**: For parts of the UI that require dynamic changes, update on user interac
   - **Column**: Used to arrange widgets vertically in the layout.
   - **SingleChildScrollView**: Used to make the screen scrollable when there is not enough space for all the content.
   - **Padding**: Adds space around widgets to create a clean layout.
