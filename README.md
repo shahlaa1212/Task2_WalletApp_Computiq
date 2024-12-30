@@ -5,7 +5,7 @@
 # Wallet UI  🪙
 
 ## **Description** 📝
-is a Flutter-based mobile application UI designed for managing digital assets, including tokens and NFTs. The app provides features for browsing, sending, and receiving tokens, managing NFTs, and viewing detailed information about various currencies. The app is designed with an intuitive interface and smooth user experience.
+is a Flutter-based mobile UI designed for managing digital assets, including tokens and NFTs. The app provides features for browsing, sending, and receiving tokens, managing NFTs, and viewing detailed information about various currencies. The app is designed with an intuitive interface and smooth user experience.
 
 ## **Features** 📌
 - **Category Screen**: Browse and manage NFTs by category.
