@@ -9,7 +9,7 @@ is a Flutter-based mobile application UI designed for managing digital assets, i
 - **Currency List**: Displays available tokens and their respective details.
 - **Custom Widgets**: Reusable UI components for efficiency and better code management.
 
-## Technologies Used
+## Technologies Used 📦
 This Wallet App is built using the following technologies:
 
 - **Flutter**: A UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase. It's used for building the entire app's interface.
