@@ -26,7 +26,7 @@ lib/
  │ └── send_buy_recive.dart
  ├── main.dart
 ```
-## **Features**
+## **Features** 📌
 - **Category Screen**: Browse and manage NFTs by category.
 - **Home Screen**: Overview of tokens and NFTs, with the ability to send, buy, and receive digital assets.
 - **Currency List**: Displays available tokens and their respective details.
@@ -45,7 +45,7 @@ lib/
 <img width="242" height="390" alt="Screenshot 11-27-2022" src="https://github.com/user-attachments/assets/972933e5-fe94-4902-be05-fa3ae5425898" />
 </p>
 
-## Installation
+## Installation 🛠
 ### **Steps :**
 1. Clone this repository:
    ```bash
@@ -63,7 +63,8 @@ lib/
    ```
    flutter run
    ```
-### **Contribution**
+### **Contribution** 🤝
+Contributions are welcome! If you'd like to contribute to the project.
 
  
    
