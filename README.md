@@ -12,18 +12,18 @@ is a Flutter-based mobile application UI designed for managing digital assets, i
 ## Technologies Used 📦
 This Wallet App is built using the following technologies:
 
-- **Flutter**: A UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase. It's used for building the entire app's interface.
-- **Dart**: The programming language used to develop the app.
+- **Flutter**: A UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.
+- **Dart**: The programming language used to develop.
 - **Flutter Widgets**: The app is built using various Flutter widgets, which are the fundamental building blocks of the user interface. Some key widgets used in the app:
   - **StatelessWidget**: For parts of the UI that do not change once created, such as the app bar, buttons, and text that remain static.
   - **StatefulWidget**: For parts of the UI that require dynamic changes, such as buttons and forms that update based on user interactions.
   - **Column**: Used to arrange widgets vertically in the layout.
   - **SingleChildScrollView**: Used to make the screen scrollable when there is not enough space for all the content.
   - **Padding**: Adds space around widgets to create a clean layout.
-  - **SafeArea**: Ensures the UI does not overlap with system status bars or notches, ensuring better compatibility across devices.
+  - **SafeArea**: Ensures the UI does not overlap with system status bars or notches, 
   - **Container**: Used to style and add padding, margin, and other layout features to widgets.
   - **SizedBox**: For adding fixed-sized spaces between widgets.
-  - **Material Design**: Used for the app's UI components (buttons, text fields, cards, etc.) to provide a consistent look and feel.
+  - **Material Design**: Used for the app's UI components (buttons, text fields, cards, etc.)
 
 ## **Project Structure** 📂
 ```
