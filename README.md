@@ -51,10 +51,10 @@ lib/
 ```
 
 ## **Screenshots** 🖼️
-### Category Screen
+### 1. Category Screen
 <img width="242" height="390" alt="Screenshot 12-01-2022" src="https://github.com/user-attachments/assets/dce8402c-a956-47d4-83c7-e5b11b66e612" />
 
-### Home Token Screen
+### 2. Home Token Screen
 <img width="242" height="390" alt="Screenshot 11-27-2022" src="https://github.com/user-attachments/assets/972933e5-fe94-4902-be05-fa3ae5425898" />
 
 ## Installation 🛠
