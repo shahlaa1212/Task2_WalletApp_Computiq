@@ -1,3 +1,7 @@
+<p align="center">
+  <img width ="500" height="200" src="https://github.com/user-attachments/assets/1d9f31b5-5976-4f1b-a44a-bbbfdd16b3a7">
+</p>
+
 # Wallet UI  🪙
 
 ## **Description** 📝
